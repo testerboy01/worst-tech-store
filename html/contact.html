@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cpus.html">cpus</a></li>
+                <li><a href="gpus.html">gpus</a></li>
+                <li><a href="news.html">Latest News</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-content">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, suggestions, or encounter any issues while using our website, please feel free to reach out to us. We value your feedback and are here to help!</p>
+
+            <h3>Contact Form</h3>
+            <form action="submit_contact.php" method="post">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+
+            <h3>Contact Information</h3>
+            <p>You can also reach us via email at: <a href="mailto:support@computerpartsshowcase.com">support@computerpartsshowcase.com</a></p>
+            <p>Follow us on our social media channels:</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Computer Parts Showcase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
